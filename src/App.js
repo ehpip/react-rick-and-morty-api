@@ -1,7 +1,6 @@
 import { QueryClientProvider, QueryClient } from "react-query";
 import { Container, Title } from "@mantine/core";
 import { Routes, Route } from "react-router-dom";
-import HeaderResponsive from "./components/header/Header";
 import Characters from "./components/characters/Characters";
 import Places from "./components/places/Places";
 import Episodes from "./components/episodes/Episodes";
@@ -18,7 +17,6 @@ function App() {
             path="/"
             element={
               <>
-                <HeaderResponsive />
                 <Characters />
               </>
             }

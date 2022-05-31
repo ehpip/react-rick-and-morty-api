@@ -6,7 +6,6 @@ import {
   Group,
   Badge,
   useMantineTheme,
-  Button,
 } from "@mantine/core";
 
 export default function Character({ character }) {
@@ -42,10 +41,6 @@ export default function Character({ character }) {
         <Text size="sm" style={{ lineHeight: 1.5 }}>
           gender: {character.gender}
         </Text>
-
-        <Button fullWidth style={{ marginTop: 14 }}>
-          Details
-        </Button>
       </Card>
     </div>
   );
